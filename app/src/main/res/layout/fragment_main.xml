@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        >
+
+    <data>
+
+    </data>
+
+    <com.example.zls.widget.custom_view.shape_view.ShapedConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:gradient_end_color="#1cefff"
+            app:gradient_orientation="top_bottom"
+            app:gradient_start_color="#c0c0aa"
+            >
+
+        <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                android:id="@+id/test_demo"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/main_func_1"
+                app:corner_radius="12dp"
+                app:gradient_end_color="#f7b733"
+                app:gradient_orientation="right_left"
+                app:gradient_start_color="#fc4a1a"
+                app:layout_constraintBottom_toTopOf="@id/second_floor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="spread"
+                />
+
+        <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                android:id="@+id/second_floor"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/main_func_2"
+                app:corner_radius="12dp"
+                app:gradient_end_color="#f7b733"
+                app:gradient_orientation="right_left"
+                app:gradient_start_color="#fc4a1a"
+                app:layout_constraintBottom_toTopOf="@id/hen_coder"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/test_demo"
+                />
+
+        <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                android:id="@+id/hen_coder"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/main_func_3"
+                app:corner_radius="12dp"
+                app:gradient_end_color="#f7b733"
+                app:gradient_orientation="right_left"
+                app:gradient_start_color="#fc4a1a"
+                app:layout_constraintBottom_toTopOf="@id/unity_game"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/second_floor"
+                />
+
+        <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                android:id="@+id/unity_game"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/main_func_4"
+                app:corner_radius="12dp"
+                app:gradient_end_color="#f7b733"
+                app:gradient_orientation="right_left"
+                app:gradient_start_color="#fc4a1a"
+                app:layout_constraintBottom_toTopOf="@id/func5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/hen_coder"
+                />
+
+        <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                android:id="@+id/func5"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/main_func_5"
+                app:corner_radius="12dp"
+                app:gradient_end_color="#f7b733"
+                app:gradient_orientation="right_left"
+                app:gradient_start_color="#fc4a1a"
+                app:layout_constraintBottom_toTopOf="@id/func6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/unity_game"
+                />
+
+        <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                android:id="@+id/func6"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/main_func_6"
+                app:corner_radius="12dp"
+                app:gradient_end_color="#f7b733"
+                app:gradient_orientation="right_left"
+                app:gradient_start_color="#fc4a1a"
+                app:layout_constraintBottom_toTopOf="@id/func7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/func5"
+                />
+
+        <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                android:id="@+id/func7"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/main_func_7"
+                app:corner_radius="12dp"
+                app:gradient_end_color="#f7b733"
+                app:gradient_orientation="right_left"
+                app:gradient_start_color="#fc4a1a"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/func6"
+                />
+    </com.example.zls.widget.custom_view.shape_view.ShapedConstraintLayout>
+</layout>

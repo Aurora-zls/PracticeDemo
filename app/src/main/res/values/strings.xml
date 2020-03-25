@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">ZLS-TEST-DEMO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chicken_dialog_still_wait">get it in</string>
+    <string name="text_time_day">day(s)</string>
+    <string name="text_time_year">year(s)</string>
+    <string name="count_down_hint">请输入倒计时duration</string>
+    <string name="reset_countdown">重制倒计时</string>
+    <string name="text_time_within_two_days_formatter">Yesterday %02d:%02d</string>
+    <string name="text_time_tomorrow_formatter">Tomorrow %02d: %02d</string>
+    <string name="text_time_tomorrow">Tomorrow</string>
+    <string name="text_time_within_two_days">Yesterday</string>
+    <string name="task_time">%d days %02d hrs %02d mins</string>
+    <string name="task_time_no_day">%02d hrs %02d mins</string>
+    <string name="task_time_no_min">%02d mins %02ds</string>
+    <string name="text_time_day_formatter">%d day(s)</string>
+    <string name="text_time_year_formatter">%d year(s)</string>
+    <string name="date_year_month_day_formatter" translatable="false">%d-%02d-%02d</string>
+
+    <string name="text_time_duration_mmss_formatter" formatted="false" translatable="false">%02d:%02d</string>
+    <string name="text_time_duration_hhmmss_formatter" formatted="false" translatable="false">%02d:%02d:%02d</string>
+    <string name="text_time_past_formatter" formatted="false" translatable="false">%02d/%02d/%02d %02d:%02d</string>
+    <string name="text_time_duration_mmdd_formatter" formatted="false" translatable="false">%02d/%02d</string>
+    <string name="simple_date_str_split_formatter" formatted="false" translatable="false">%d/%02d/%02d</string>
+    <string name="simple_date_str_split_with_hour_formatter" formatted="false" translatable="false">%d/%02d/%02d %02d:%02d</string>
+    <string name="simple_date_str_split_with_second_formatter" formatted="false" translatable="false">%d/%02d/%02d %02d:%02d:%02d</string>
+    <string name="simple_date_str_formatter" formatted="false" translatable="false">%d-%02d-%02d %02d:%02d:%02d</string>
+    <string name="hours_formatter">%02d</string>
+    <string name="minutes_formatter">%02d</string>
+    <string name="seconds_formatter">%02d</string>
+    <string name="test_justify_content">壬戌之秋，renxu autumn July, 七月既望，Jiwang, 苏子与客泛舟游于赤壁之下。Suzi and guest boating tours under Chibi.清风徐来，水波不兴。 Xu breeze, rippleless.举酒属客，Wine is off, 诵明月之诗，chanting the moon poetry, 歌窈窕之章。song slim chapter. 少焉，A littlewhile, 月出于东山之上，months of Dongshan, 徘徊于斗牛之间。wandering in the bullfight. 白露横江，Dew Yokoe, 水光接天。Shuiguang next day. 纵一苇之所如，Even a reed like, 凌万顷之茫然。Ling Wan Qing loss. 浩浩乎如冯虚御风，The vast Feng seems such as virtual Yufeng, 而不知其所止；and not to stop; 飘飘乎如遗世独立,waving as aloof, 羽化而登仙。emergence and immortal. (冯 通：凭)(Feng Tong)\n　　于是饮酒乐甚，then drinking music very, 扣舷而歌之。 I and song. 歌曰：“桂棹兮兰桨，击空明兮溯流光。渺渺兮予怀，望美人兮天一方。”。The Song said: \"Zhao Gui Xi Lan paddle upstream come blow out light and air. You come to my arms, at beauty come one day.\"。客有吹洞箫者，A blowing flute, 倚歌而和之。 and the Yi song. 其声呜呜然，The hum of course, 如怨如慕，such as resentment, 如泣如诉；such as mu of bamboo, 余音袅袅，linger on faintly, 不绝如缕。as if weeping and complaining. 舞幽壑之潜蛟，泣孤舟之嫠妇。Dance Youhe the cry of a hidden dragon boat。</string>
+    <string name="test_justify_content_slice_1">壬戌之秋，renxu autumn July, 七月既望，Jiwang,苏子与客泛舟游于赤壁之下。Suzi and guest boating tours under Chibi.清风徐来，水波不兴。 Xu breeze, rippleless.举酒属客，Wine is off, 诵明月之诗，chanting the moon poetry, 歌窈窕之章。song slim chapter. 少焉，A littlewhile, 月出于东山之上，months of Dongshan, 徘徊于斗牛之间。wandering in the bullfight. 白露横江，Dew Yokoe, 水光接天。Shuiguang next day. 纵一苇之所如，Even a reed like, 凌万顷之茫然。Ling Wan Qing loss. 浩浩乎如冯虚御风，The vast Feng seems such as virtual Yufeng, 而不知其所止；and not to stop; 飘飘乎如遗世独立,waving as aloof, 羽化而登仙。emergence and immortal. (冯 通：凭)(Feng Tong)</string>
+    <string name="test_justify_content_slice_2">于是饮酒乐甚，then drinking music very, 扣舷而歌之。 I andsong. 歌曰：“桂棹兮兰桨，击空明兮溯流光。渺渺兮予怀，望美人兮天一方。”。The Song said: \"Zhao Gui Xi Lan paddle upstream come blow out light and air. You come to my arms, at beauty come one day.\"。客有吹洞箫者，A blowing flute, 倚歌而和之。 and the Yi song. 其声呜呜然，The hum of course, 如怨如慕，such as resentment, 如泣如诉；such as mu of bamboo, 余音袅袅，linger on faintly, 不绝如缕。as if weeping and complaining. 舞幽壑之潜蛟，泣孤舟之嫠妇。Dance Youhe the cry of a hidden dragon boat。</string>
+    <string name="html_test"><![CDATA[<ol><li>item 1 </li><li>item 2 </li></ol>]]></string>
+    <string name="pull_down_to_refresh">Pull down to refresh</string>
+    <string name="refresh_success">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="release_immediately_refresh">释放立即刷新</string>
+
+    <string name="hen_coder_practice_entry_1">Hen Coder Practice 1</string>
+    <string name="hen_coder_practice_entry_2">Hen Coder Practice 2</string>
+    <string name="hen_coder_practice_entry_3">Hen Coder Practice 3</string>
+    <string name="hen_coder_practice_entry_4">Hen Coder Practice 4</string>
+    <string name="hen_coder_practice_entry_5">Hen Coder Practice 5</string>
+    <string name="hen_coder_practice_entry_6">Hen Coder Practice 6</string>
+    <string name="hen_coder_practice_entry_7">Hen Coder Practice 7</string>
+    <string name="title_argb_evaluator">ArgbEvaluator</string>
+    <string name="title_hsv_evaluator">HsvEvaluator</string>
+    <string name="title_of_object">ofObject()</string>
+    <string name="title_property_values_holder">PropertyValuesHolder</string>
+    <string name="title_animator_set">AnimatorSet</string>
+    <string name="title_keyframe">PropertyValuesHolder.ofKeyframe()</string>
+    <string name="animate">animate</string>
+
+    <string name="main_func_1">Test Demo</string>
+    <string name="main_func_2">下拉二楼</string>
+    <string name="main_func_3">HenCoder Practice</string>
+    <string name="main_func_4">Unity Game</string>
+    <string name="main_func_5">Stay tuned</string>
+    <string name="main_func_6">Stay tuned</string>
+    <string name="main_func_7">Stay tuned</string>
+    <string name="default_toast">功能尚未开发完成</string>
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.SixthFragment"
+        >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/hello_blank_fragment"
+                />
+
+        <cn.jzvd.JzvdStd
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                />
+
+        <com.example.zls.widget.custom_view.custom_text_view.SelectableTextView
+                android:id="@+id/ctv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:forbiddenActionMenu="false"
+                app:textJustify="true"
+                tools:text="@string/test_justify_content"
+                />
+
+        <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:lineSpacingExtra="10dp"
+                tools:text="@string/test_justify_content_slice_1"
+                />
+
+        <com.example.zls.widget.custom_view.custom_text_view.AlignTextView
+                android:id="@+id/align_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                tools:text="@string/test_justify_content_slice_1"
+                />
+
+        <com.example.zls.widget.custom_view.custom_text_view.JustifyTextView
+                android:id="@+id/justify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginTop="10dp"
+                tools:text="@string/test_justify_content_slice_1"
+                />
+
+        <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:lineSpacingExtra="2dp"
+                />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".fragment.SeventhFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+            android:id="@+id/lottie_collection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/grab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="grab/data.json"
+                app:lottie_imageAssetsFolder="grab/images"
+                app:lottie_loop="true"
+                />
+
+        <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="home_task.json"
+                app:lottie_loop="true"
+                />
+
+        <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/bonus_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="bonus_header.json"
+                app:lottie_loop="true"
+                />
+
+        <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/quiz_ready"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="quiz_ready.json"
+                app:lottie_loop="true"
+                />
+
+        <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/quiz_revive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="quiz_revive.json"
+                app:lottie_loop="true"
+                />
+
+        <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/spin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_imageAssetsFolder="spin/images"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="spin/data.json"
+                app:lottie_loop="true"
+                />
+
+        <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/quiz_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="quiz_countdown/data.json"
+                app:lottie_loop="true"
+                />
+
+        <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/match_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_imageAssetsFolder="match_bg/images"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="match_bg/data.json"
+                app:lottie_loop="true"
+                />
+
+        <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/gift_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_imageAssetsFolder="gift_countdown/images"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="gift_countdown/data.json"
+                app:lottie_loop="true"
+                />
+
+        <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/free_joy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_imageAssetsFolder="free_joy/images"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="free_joy/data.json"
+                app:lottie_loop="true"
+                />
+
+        <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/events"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_imageAssetsFolder="events/images"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="events/data.json"
+                app:lottie_loop="true"
+                />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        >
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:orientation="vertical"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                tools:background="@color/white"
+                >
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/game_icon"
+                    android:layout_width="67dp"
+                    android:layout_height="67dp"
+                    app:fadeDuration="200"
+                    app:failureImage="@drawable/jz_restart_pressed"
+                    app:failureImageScaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:placeholderImage="@drawable/timg"
+                    app:placeholderImageScaleType="centerCrop"
+                    app:retryImage="@drawable/jz_restart_normal"
+                    app:retryImageScaleType="centerCrop"
+                    app:roundedCornerRadius="15dp"
+                    />
+
+            <TextView
+                    android:id="@+id/game_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="10dp"
+                    android:singleLine="true"
+                    android:text="Bubble Shooter"
+                    android:textColor="#ff3e3f52"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    app:layout_constrainedWidth="true"
+                    app:layout_constraintBottom_toTopOf="@id/game_bonus"
+                    app:layout_constraintEnd_toStartOf="@id/button"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toEndOf="@id/game_icon"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_chainStyle="packed"
+                    />
+
+            <TextView
+                    android:id="@+id/game_bonus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="10dp"
+                    android:singleLine="true"
+                    android:text="Rewards ₹1000000000"
+                    android:textColor="#ff83838c"
+                    android:textSize="14sp"
+                    app:layout_constrainedWidth="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/button"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="@id/game_name"
+                    app:layout_constraintTop_toBottomOf="@id/game_name"
+                    />
+
+            <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                    android:id="@+id/button"
+                    android:layout_width="94dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text='@{"开始"}'
+                    android:textColor="#ffffffff"
+                    android:textSize="14sp"
+                    app:corner_radius="15dp"
+                    app:gradient_end_color="#FB7006"
+                    app:gradient_start_color="#FE9936"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="开始"
+                    />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+                android:id="@+id/add_name"
+                android:layout_width="110dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="33dp"
+                android:text="add text"
+                />
+
+        <Button
+                android:id="@+id/add_bonus"
+                android:layout_width="110dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="33dp"
+                android:text="add text"
+                />
+    </LinearLayout>
+</layout>

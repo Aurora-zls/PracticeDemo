@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".fragment.NinthFragment"
+            >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="33dp"
+                android:gravity="center"
+                android:text="@string/hello_blank_fragment"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                />
+
+        <com.example.zls.widget.custom_view.BackgroundCountdownView
+                android:id="@+id/countdown_test_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="44dp"
+                />
+
+        <EditText
+                android:id="@+id/edit_duration"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="33dp"
+                android:hint="@string/count_down_hint"
+                android:inputType="number|numberDecimal"
+                />
+
+        <TextView
+                android:id="@+id/confirm"
+                android:layout_width="220dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="22dp"
+                android:background="#fdc30a"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/reset_countdown"
+                android:textSize="22sp"
+                />
+
+        <com.example.zls.widget.custom_view.CustomCountdownView
+                android:id="@+id/countdown_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="22dp"
+                />
+        <!-- scaleX或者scaleY设置负值可以使图像翻转 -->
+        <ImageView
+                android:id="@+id/img1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:scaleX="-1"
+                android:scaleY="-1"
+                app:srcCompat="@drawable/timg"
+                />
+
+        <ImageView
+                android:id="@+id/img2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:rotation="45"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/timg"
+                />
+
+        <!-- 这个地方设置rotateX或者rotateY实际是有效果的，在IDE预览无变化 -->
+        <!-- rotateX绕x轴旋转或者rotateY绕Y轴旋转 -->
+        <ImageView
+                android:id="@+id/img3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:rotationX="162"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/timg"
+                />
+
+        <ImageView
+                android:id="@+id/img4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:rotationY="45"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/timg"
+                />
+
+    </LinearLayout>
+</ScrollView>

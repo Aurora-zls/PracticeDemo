@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".fragment.ThirdFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="动画展示"
+            android:layout_margin="40dp"/>
+    <RelativeLayout
+            android:id="@+id/father"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+        <Button
+                android:id="@+id/button_1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="旋转"/>
+        <Button
+                android:id="@+id/button_2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/button_1"
+                android:text="缩放"/>
+        <Button
+                android:id="@+id/button_3"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/button_1"
+                android:layout_alignLeft="@id/button_1"
+                android:text="透明度"/>
+        <Button
+                android:id="@+id/button_4"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/button_3"
+                android:layout_below="@id/button_1"
+                android:text="平移"/>
+        <Button
+                android:id="@+id/button_5"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/button_3"
+                android:layout_below="@id/button_3"
+                android:text="混合"/>
+        <Button
+                android:id="@+id/button_6"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_toLeftOf="@id/button_5"
+                android:layout_below="@id/button_3"
+                android:text="属性透明度"/>
+        <Button
+                android:id="@+id/button_7"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_toLeftOf="@id/button_5"
+                android:layout_below="@id/button_6"
+                android:text="属性平移"/>
+        <Button
+                android:id="@+id/button_8"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/button_7"
+                android:layout_below="@id/button_6"
+                android:text="属性旋转"/>
+        <Button
+                android:id="@+id/button_9"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/button_7"
+                android:layout_below="@id/button_8"
+                android:text="属性组合"/>
+
+    </RelativeLayout>
+    <ImageView
+            android:id="@+id/img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/fragmentation_help"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/button_4"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"/>
+    <TextView
+            android:id="@+id/test"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="测试测试测试动画"
+            android:textSize="33dp"/>
+    <TextView
+        android:id="@+id/test2"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="测试属性动画"
+        android:textSize="33dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+            android:id="@+id/test3"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="测试组合属性动画"
+            android:textSize="33dp"
+            android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>

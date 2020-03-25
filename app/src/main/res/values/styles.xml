@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary_2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_2</item>
+        <item name="colorAccent">@color/colorAccent_2</item>
+    </style>
+
+    <style name="TopDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_top_show</item>
+        <item name="android:windowExitAnimation">@anim/dialog_top_hide</item>
+    </style>
+
+    <style name="BottomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_bottom_up</item>
+        <item name="android:windowExitAnimation">@anim/dialog_bottom_down</item>
+    </style>
+
+    <style name="MyMinDialogWidth" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="MyAlpha" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:windowBackground">#ff000000</item>
+    </style>
+
+    <style name="HenCoderTabTextAppearance">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

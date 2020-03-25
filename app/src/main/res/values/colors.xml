@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary_2">#008577</color>
+    <color name="colorPrimaryDark_2">#00574B</color>
+    <color name="colorAccent_2">#D81B60</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#f0f0f0</color>
+    <color name="title_bar">#f4f4f4</color>
+    <color name="color_btn_major">#FFe352</color>
+    <color name="color_btn_major_deep">#ffb626</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_little">#40b4b4b4</color>
+    <!--用于重要文字-->
+    <color name="color_text_major">#222222</color>
+    <!--用于次要文字-->
+    <color name="color_text_normal">#666666</color>
+    <!--用于较弱文字-->
+    <color name="color_text_minor">#999999</color>
+    <!--用于list/input页提示性文字-->
+    <color name="color_input_hint">#CCCCCC</color>
+    <!--用于全站分割线颜色-->
+    <color name="color_line">#E4E4E4</color>
+    <color name="color_btn_cancel">#E3E3E3</color>
+    <!--用于全站背景以及分割线色块-->
+    <color name="color_background">#F4F5F9</color>
+    <color name="color_btn_background">#FFFBFBFB</color>
+    <color name="color_item">#F7F7F7</color>
+    <color name="color_white">#FFFFFFFF</color>
+
+    <color name="white_50">#80FFFFFF</color>
+
+    <color name="popup_bg">#8f000000</color>
+    <color name="line_bg">#CDCDCD</color>
+
+    <color name="color_red_1">#D81B60</color>
+    <color name="color_red_2">#FF0000</color>
+    <color name="color_red_3">#EE0DF0</color>
+
+    <color name="color_green_1">#00FF60</color>
+    <color name="color_green_2">#11DFD1</color>
+    <color name="color_green_3">#03CC0f</color>
+
+    <color name="color_blue_1">#0000FF</color>
+    <color name="color_blue_2">#5232D1</color>
+    <color name="color_blue_3">#3493FF</color>
+
+    <color name="color_yellow_1">#CCDD60</color>
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FFD200</color>
+    <color name="newColorAccent">#FFD200</color>
+    <color name="colorAccentDark">#FFA200</color>
+    <color name="yellow_extra_1">#FFC302</color>
+    <color name="yellow_extra_2">#FFBE14</color>
+    <color name="yellowMain">#FFC302</color>
+    <color name="statusBarColor">#FFFFFF</color>
+    <color name="toolbarColor">#FFFFFF</color>
+    <color name="grey_background">#F5F5F5</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="textColorPrimary">#392626</color>
+    <color name="textColorPrimary_50">#80392626</color>
+    <color name="textColorMain">#3E3F52</color>
+    <color name="backIconDarkColor">#392626</color>
+    <color name="textColor_38">#A4B4C1</color>
+    <color name="textColor_60">#A4B4C1</color>
+    <color name="textColor_white">#FEFEFE</color>
+    <color name="textColor_grey">#A4B4C1</color>
+    <color name="grey_light">#A4B4C1</color>
+    <color name="grey_dark">#979797</color>
+
+    <color name="ripple_color">#4d000000</color>
+    <color name="disable_color">#D8D8D8</color>
+    <!--三色渐变-->
+    <color name="button_start_color">#FFEB78</color>
+    <color name="button_center_color">#FFD851</color>
+    <color name="button_end_color">#FFC831</color>
+    <!--两色渐变-->
+    <color name="yellow_start_color">#FFDD33</color>
+    <color name="yellow_end_color">#FDBE00</color>
+    <!--广告按钮渐变-->
+    <color name="ad_button_start_color">#A68EFF</color>
+    <color name="ad_button_end_color">#7D6EFF</color>
+
+    <color name="game_load_bg_color">#FFD101</color>
+
+    <color name="divider_color_on_white">#F8F5F5</color>
+
+    <color name="red_light">#FF3B30</color>
+    <color name="green_light">#4CD964</color>
+    <color name="yellow_light">#FFE700</color>
+
+    <color name="ic_launcher_background">#ffd200</color>
+
+    <!--matisse-->
+    <color name="tongzhuo_primary">@color/colorAccent</color>
+    <color name="tongzhuo_primary_dark">@color/colorAccent</color>
+
+    <!-- EditText   -->
+    <color name="underline_normal_color">#EDEDED</color>
+
+    <!--winners-->
+    <color name="winners_tab_selected">#0C1623</color>
+    <color name="winners_tab_unselected">#83838C</color>
+
+    <color name="toast_success_bg">#4CD964</color>
+    <color name="toast_error_bg">#FF3B30</color>
+    <color name="toast_waring_bg">#FFB000</color>
+    <color name="toast_info_bg">#816EFF</color>
+    <color name="toast_normal_bg">#70000000</color>
+
+    <color name="black">#000000</color>
+
+    <color name="white_transparent">#00ffffff</color>
+    <color name="white_transparent_5">#0dffffff</color>
+    <color name="white_transparent_10">#19FFFFFF</color>
+    <color name="white_transparent_15">#26ffffff</color>
+    <color name="white_transparent_20">#33ffffff</color>
+    <color name="white_transparent_30">#4dffffff</color>
+    <color name="white_transparent_40">#66ffffff</color>
+    <color name="white_transparent_50">#80FFFFFF</color>
+    <color name="white_transparent_70">#B2FFFFFF</color>
+    <color name="white_transparent_60">#99ffffff</color>
+    <color name="white_transparent_75">#BFFFFFFF</color>
+    <color name="white_transparent_80">#CCFFFFFF</color>
+
+    <color name="black_transparent_1">#01000000</color>
+    <color name="black_transparent_8">#14000000</color>
+    <color name="black_transparent_10">#19000000</color>
+    <color name="black_transparent_20">#33000000</color>
+    <color name="black_transparent_30">#4d000000</color>
+    <color name="black_transparent_50">#80000000</color>
+    <color name="black_transparent_60">#99000000</color>
+    <color name="black_transparent_70">#B3000000</color>
+    <color name="black_transparent_90">#E6000000</color>
+
+    <color name="colorPrimary_3">#3F51B5</color>
+    <color name="colorPrimaryDark_3">#303F9F</color>
+    <color name="colorAccent_3">#FF4081</color>
+</resources>

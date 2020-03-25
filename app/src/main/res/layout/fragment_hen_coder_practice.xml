@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        >
+
+    <data>
+
+    </data>
+
+    <com.example.zls.widget.custom_view.shape_view.ShapedConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:gradient_end_color="#FF8235"
+            app:gradient_orientation="top_bottom"
+            app:gradient_start_color="#30E8BF"
+            >
+
+        <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                android:id="@+id/hen_coder_1"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/hen_coder_practice_entry_1"
+                app:corner_radius="12dp"
+                app:gradient_end_color="@color/color_green_1"
+                app:gradient_orientation="right_left"
+                app:gradient_start_color="@color/yellowMain"
+                app:layout_constraintBottom_toTopOf="@id/hen_coder_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="spread"
+                />
+
+        <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                android:id="@+id/hen_coder_2"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/hen_coder_practice_entry_2"
+                app:corner_radius="12dp"
+                app:gradient_end_color="@color/color_green_1"
+                app:gradient_orientation="right_left"
+                app:gradient_start_color="@color/yellowMain"
+                app:layout_constraintBottom_toTopOf="@id/hen_coder_3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/hen_coder_1"
+                />
+
+        <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                android:id="@+id/hen_coder_3"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/hen_coder_practice_entry_3"
+                app:corner_radius="12dp"
+                app:gradient_end_color="@color/color_green_1"
+                app:gradient_orientation="right_left"
+                app:gradient_start_color="@color/yellowMain"
+                app:layout_constraintBottom_toTopOf="@id/hen_coder_4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/hen_coder_2"
+                />
+
+        <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                android:id="@+id/hen_coder_4"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/hen_coder_practice_entry_4"
+                app:corner_radius="12dp"
+                app:gradient_end_color="@color/color_green_1"
+                app:gradient_orientation="right_left"
+                app:gradient_start_color="@color/yellowMain"
+                app:layout_constraintBottom_toTopOf="@id/hen_coder_5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/hen_coder_3"
+                />
+
+        <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                android:id="@+id/hen_coder_5"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/hen_coder_practice_entry_5"
+                app:corner_radius="12dp"
+                app:gradient_end_color="@color/color_green_1"
+                app:gradient_orientation="right_left"
+                app:gradient_start_color="@color/yellowMain"
+                app:layout_constraintBottom_toTopOf="@id/hen_coder_6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/hen_coder_4"
+                />
+
+        <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                android:id="@+id/hen_coder_6"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/hen_coder_practice_entry_6"
+                app:corner_radius="12dp"
+                app:gradient_end_color="@color/color_green_1"
+                app:gradient_orientation="right_left"
+                app:gradient_start_color="@color/yellowMain"
+                app:layout_constraintBottom_toTopOf="@id/hen_coder_7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/hen_coder_5"
+                />
+
+        <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                android:id="@+id/hen_coder_7"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/hen_coder_practice_entry_7"
+                app:corner_radius="12dp"
+                app:gradient_end_color="@color/color_green_1"
+                app:gradient_orientation="right_left"
+                app:gradient_start_color="@color/yellowMain"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/hen_coder_6"
+                />
+    </com.example.zls.widget.custom_view.shape_view.ShapedConstraintLayout>
+</layout>
