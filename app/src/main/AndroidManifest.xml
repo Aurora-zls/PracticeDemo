@@ -34,6 +34,7 @@
         <activity android:name=".controller.hen_coder.HenCoder7Activity" />
 
         <activity android:name=".controller.test_demo.TestDemoActivity" />
+
         <activity android:name=".controller.unity_game.UnityGameTestActivity" />
     </application>
 
