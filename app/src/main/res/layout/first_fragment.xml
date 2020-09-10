@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".fragment.FirstFragment"
+        tools:context=".fragment.test_demo_fragment.EighteenthFragment$FirstFragment"
         >
 
     <TextView

@@ -14,7 +14,7 @@
             android:foregroundGravity="right|center_vertical"
             android:foregroundTint="#00ff00"
             android:foregroundTintMode="src_in"
-            tools:context=".fragment.ForthFragment"
+            tools:context=".fragment.test_demo_fragment.EighteenthFragment$ForthFragment"
             >
 
         <TextView

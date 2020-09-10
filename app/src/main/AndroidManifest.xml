@@ -6,6 +6,8 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
 
     <application
             android:name="com.example.zls.application.App"
@@ -17,7 +19,7 @@
             android:theme="@style/AppTheme"
             >
         <activity
-                android:name="com.example.zls.MainActivity"
+                android:name="com.example.zls.controller.MainActivity"
                 android:screenOrientation="unspecified"
                 >
             <intent-filter>
@@ -36,6 +38,15 @@
         <activity android:name=".controller.test_demo.TestDemoActivity" />
 
         <activity android:name=".controller.unity_game.UnityGameTestActivity" />
+
+        <!--        <activity-->
+        <!--                android:name=".controller.faceAuth.TestActivity"-->
+        <!--                android:configChanges="keyboardHidden|orientation|screenSize"-->
+        <!--                android:launchMode="singleTask"-->
+        <!--                android:screenOrientation="portrait"-->
+        <!--                android:theme="@style/AppTheme"-->
+        <!--                android:windowSoftInputMode="adjustResize"-->
+        <!--                />-->
     </application>
 
 </manifest>

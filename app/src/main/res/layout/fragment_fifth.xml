@@ -5,7 +5,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".fragment.FifthFragment"
+        tools:context=".fragment.test_demo_fragment.FifthFragment"
         >
 
     <!-- TODO: Update blank fragment layout -->

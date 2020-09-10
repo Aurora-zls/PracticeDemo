@@ -28,6 +28,7 @@ public class App extends Application {
         initARouter();
         ARouter.init(this);
         //init screenUtils
+//        SystemUtils.createNotificationChannel(this);
         ScreenUtils.setContext(this);
         ToastUtils.setContext(this);
 

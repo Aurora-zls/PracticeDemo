@@ -9,110 +9,235 @@
 
     </data>
 
-    <LinearLayout
+    <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
             >
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="99dp"
+                android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                tools:background="@color/white"
                 >
 
-            <com.facebook.drawee.view.SimpleDraweeView
-                    android:id="@+id/game_icon"
-                    android:layout_width="67dp"
-                    android:layout_height="67dp"
-                    app:fadeDuration="200"
-                    app:failureImage="@drawable/jz_restart_pressed"
-                    app:failureImageScaleType="centerCrop"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:placeholderImage="@drawable/timg"
-                    app:placeholderImageScaleType="centerCrop"
-                    app:retryImage="@drawable/jz_restart_normal"
-                    app:retryImageScaleType="centerCrop"
-                    app:roundedCornerRadius="15dp"
-                    />
-
-            <TextView
-                    android:id="@+id/game_name"
-                    android:layout_width="wrap_content"
+            <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginEnd="10dp"
-                    android:singleLine="true"
-                    android:text="Bubble Shooter"
-                    android:textColor="#ff3e3f52"
-                    android:textSize="17sp"
-                    android:textStyle="bold"
-                    app:layout_constrainedWidth="true"
-                    app:layout_constraintBottom_toTopOf="@id/game_bonus"
-                    app:layout_constraintEnd_toStartOf="@id/button"
-                    app:layout_constraintHorizontal_bias="0"
-                    app:layout_constraintStart_toEndOf="@id/game_icon"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_chainStyle="packed"
-                    />
+                    android:background="@color/yellow_extra_1"
+                    android:orientation="vertical"
+                    >
 
-            <TextView
-                    android:id="@+id/game_bonus"
-                    android:layout_width="wrap_content"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="99dp"
+                        android:orientation="vertical"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        tools:background="@color/white_transparent_70"
+                        >
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/game_icon"
+                            android:layout_width="67dp"
+                            android:layout_height="67dp"
+                            app:fadeDuration="200"
+                            app:failureImage="@drawable/jz_restart_pressed"
+                            app:failureImageScaleType="centerCrop"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:placeholderImage="@drawable/timg"
+                            app:placeholderImageScaleType="centerCrop"
+                            app:retryImage="@drawable/jz_restart_normal"
+                            app:retryImageScaleType="centerCrop"
+                            app:roundedCornerRadius="15dp"
+                            />
+
+                    <TextView
+                            android:id="@+id/game_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="10dp"
+                            android:singleLine="true"
+                            android:text="Bubble Shooter"
+                            android:textColor="#ff3e3f52"
+                            android:textSize="17sp"
+                            android:textStyle="bold"
+                            app:layout_constrainedWidth="true"
+                            app:layout_constraintBottom_toTopOf="@id/game_bonus"
+                            app:layout_constraintEnd_toStartOf="@id/button"
+                            app:layout_constraintHorizontal_bias="0"
+                            app:layout_constraintStart_toEndOf="@id/game_icon"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_chainStyle="packed"
+                            />
+
+                    <TextView
+                            android:id="@+id/game_bonus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="10dp"
+                            android:singleLine="true"
+                            android:text="Rewards ₹1000000000"
+                            android:textColor="#ff83838c"
+                            android:textSize="14sp"
+                            app:layout_constrainedWidth="true"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@id/button"
+                            app:layout_constraintHorizontal_bias="0"
+                            app:layout_constraintStart_toStartOf="@id/game_name"
+                            app:layout_constraintTop_toBottomOf="@id/game_name"
+                            />
+
+                    <com.example.zls.widget.custom_view.shape_view.ShapeTextView
+                            android:id="@+id/button"
+                            android:layout_width="94dp"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text='@{"开始"}'
+                            android:textColor="#ffffffff"
+                            android:textSize="14sp"
+                            app:corner_radius="15dp"
+                            app:gradient_end_color="#FB7006"
+                            app:gradient_start_color="#FE9936"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:text="开始"
+                            />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <Button
+                        android:id="@+id/add_name"
+                        android:layout_width="110dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="33dp"
+                        android:text="add text"
+                        />
+
+                <Button
+                        android:id="@+id/add_bonus"
+                        android:layout_width="110dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="33dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="add text"
+                        />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:layout_marginEnd="10dp"
-                    android:singleLine="true"
-                    android:text="Rewards ₹1000000000"
-                    android:textColor="#ff83838c"
-                    android:textSize="14sp"
-                    app:layout_constrainedWidth="true"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@id/button"
-                    app:layout_constraintHorizontal_bias="0"
-                    app:layout_constraintStart_toStartOf="@id/game_name"
-                    app:layout_constraintTop_toBottomOf="@id/game_name"
-                    />
+                    android:background="@color/green_light"
+                    android:orientation="vertical"
+                    android:paddingVertical="20dp"
+                    >
 
-            <com.example.zls.widget.custom_view.shape_view.ShapeTextView
-                    android:id="@+id/button"
-                    android:layout_width="94dp"
-                    android:layout_height="30dp"
-                    android:gravity="center"
-                    android:text='@{"开始"}'
-                    android:textColor="#ffffffff"
-                    android:textSize="14sp"
-                    app:corner_radius="15dp"
-                    app:gradient_end_color="#FB7006"
-                    app:gradient_start_color="#FE9936"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:text="开始"
-                    />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="测试系统通知"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
 
-        <Button
-                android:id="@+id/add_name"
-                android:layout_width="110dp"
-                android:layout_height="44dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="33dp"
-                android:text="add text"
-                />
+                <Button
+                        android:id="@+id/default_notification"
+                        android:layout_width="110dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="33dp"
+                        android:text="默认通知"
+                        />
 
-        <Button
-                android:id="@+id/add_bonus"
-                android:layout_width="110dp"
-                android:layout_height="44dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="33dp"
-                android:text="add text"
-                />
-    </LinearLayout>
+                <Button
+                        android:id="@+id/custom_notification"
+                        android:layout_width="110dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="33dp"
+                        android:text="自定义通知"
+                        />
+
+                <EditText
+                        android:id="@+id/delay"
+                        android:layout_width="144dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="33dp"
+                        android:gravity="center"
+                        android:hint="notification delay time"
+                        android:inputType="number"
+                        android:labelFor="@id/setting_channel"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        />
+                <Button
+                        android:id="@+id/delay_default_notification"
+                        android:layout_width="166dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="33dp"
+                        android:text="延迟发送默认通知"
+                        />
+
+                <Button
+                        android:id="@+id/delay_custom_notification"
+                        android:layout_width="166dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="33dp"
+                        android:text="延迟发送自定义通知"
+                        />
+
+                <Button
+                        android:id="@+id/create_channel"
+                        android:layout_width="180dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="33dp"
+                        android:text="创建提交所有通知渠道"
+                        />
+
+                <Button
+                        android:id="@+id/delete_channel"
+                        android:layout_width="180dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="33dp"
+                        android:text="删除所有通知渠道"
+                        />
+
+                <EditText
+                        android:id="@+id/channel_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="33dp"
+                        android:gravity="center"
+                        android:hint="输入前往的渠道 可选 system subscribe default custom voice"
+                        android:inputType="textShortMessage"
+                        android:labelFor="@id/setting_channel"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        />
+
+                <Button
+                        android:id="@+id/setting_channel"
+                        android:layout_width="180dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="33dp"
+                        android:text="进入channel设置页面"
+                        />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </layout>

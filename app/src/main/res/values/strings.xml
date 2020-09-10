@@ -63,4 +63,10 @@
     <string name="main_func_7">Stay tuned</string>
     <string name="default_toast">功能尚未开发完成</string>
 
+    <string name="notification_channel_system" translatable="false">System</string>
+    <string name="notification_channel_subscribe" translatable="false">Subscribe</string>
+    <string name="notification_channel_custom" translatable="false">Custom</string>
+    <string name="notification_channel_voice" translatable="false">Voice</string>
+    <string name="notification_channel_default" translatable="false">Default</string>
+
 </resources>
